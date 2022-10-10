@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url('./bg.png');
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#startDownload {
+  text-align: left;
+  background-color: rgb(51, 139, 147);
+  color: rgb(231, 230, 230);
+  font-size: 20px;
+  font-weight: 900;
+  border: 0;
+  padding: 10px;
+}
+
+.download-progress-bar__container {
+  margin: 20px 0;
+  width: 400px;
+  height: 40px;
+  background-color: rgb(15, 15, 18);
+  border-radius: 20px;
+  box-shadow: 0 0 64px 64px rgba(255, 255, 255, 0.15);
+}
+
+.download-progress-bar__progress {
+  background: linear-gradient(
+    to right,
+    rgb(51, 139, 147),
+    rgb(182, 244, 146)
+  );
+  border-radius: 20px;
+  color: rgb(231, 230, 230);
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: 100%;
+}
