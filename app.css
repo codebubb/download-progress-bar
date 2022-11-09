@@ -3,19 +3,18 @@ html {
 }
 
 body {
-  background: url('./bg.png');
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url('./bg.png');
 }
 
 #startDownload {
-  text-align: left;
-  background-color: rgb(51, 139, 147);
-  color: rgb(231, 230, 230);
+  background-color: rgb(71, 167, 135);
+  color: rgb(234, 232, 232);
   font-size: 20px;
   font-weight: 900;
   border: 0;
@@ -23,14 +22,14 @@ body {
 }
 
 #startDownload:disabled {
-  background-color: rgb(25, 66, 69);
+  background-color: rgb(39, 92, 74);
 }
 
 .download-progress-bar__container {
   margin: 20px 0;
   width: 400px;
   height: 40px;
-  background-color: rgb(15, 15, 18);
+  background-color: rgb(5, 4, 4);
   border-radius: 20px;
   box-shadow: 0 0 64px 64px rgba(255, 255, 255, 0.15);
 }
@@ -38,11 +37,11 @@ body {
 .download-progress-bar__progress {
   background: linear-gradient(
     to right,
-    rgb(51, 139, 147),
+    rgba(51, 139, 147),
     rgb(182, 244, 146)
   );
   border-radius: 20px;
-  color: rgb(231, 230, 230);
+  color: rgb(237, 235, 235);
   font-weight: 900;
   display: flex;
   align-items: center;
